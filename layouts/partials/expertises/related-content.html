@@ -1,0 +1,12 @@
+{{ $persons_expertises := "expertises/persons_expertises.html" }}
+{{ if templates.Exists ( printf "partials/%s" $persons_expertises ) }}
+  {{ partial $persons_expertises . }}
+{{ end }}
+{{ $posts_expertises := "expertises/posts_expertises.html" }}
+{{ if templates.Exists ( printf "partials/%s" $posts_expertises ) }}
+  {{ partial $posts_expertises . }}
+{{ end }}
+{{ $publications_expertises := "expertises/publications_expertises.html" }}
+{{ if templates.Exists ( printf "partials/%s" $publications_expertises ) }}
+  {{ partial $publications_expertises . }}
+{{ end }}

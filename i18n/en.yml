@@ -1,0 +1,17 @@
+expertises:
+  all: All expertises
+  latest: Latest expertises
+  discover: Discover the expertise
+  discover_persons:
+    one: Our {{ .Title }}’s  expert
+    other: Our {{ .Title }}’s  experts
+  more: Discover more expertises
+  persons:
+    one: Our expert
+    other: Our experts
+  related:
+    one: Related expertise
+    other: Related expertise
+  title:
+    one: Expertise
+    other: Expertises

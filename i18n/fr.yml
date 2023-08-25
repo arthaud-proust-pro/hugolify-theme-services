@@ -1,0 +1,17 @@
+expertises:
+  all: Toutes les expertises
+  latest: Dernières expertises
+  discover: Découvrez l’expertise
+  discover_persons:
+    one: Notre expert en {{ .Title }}
+    other: Nos experts en {{ .Title }}
+  more: Découvrir plus d’expertises
+  persons:
+    one: Notre expert
+    other: Nos experts
+  related:
+    one: L’expertise liée
+    other: Les expertises liées
+  title:
+    one: Expertise
+    other: Expertises

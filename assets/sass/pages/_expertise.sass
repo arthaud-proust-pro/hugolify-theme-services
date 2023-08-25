@@ -1,0 +1,24 @@
+.page-expertises
+    .hero-content
+        @extend .col-md-8
+        @extend .col-xl-7
+    .expertise-persons,
+    .latest
+        @include margin-top($global-spacing-double)
+
+    @include media-breakpoint-up(md)
+        .grid
+            >
+                *
+                    grid-row: unset
+                .expertise-persons,
+                .latest
+                    grid-column: 1/13
+                    
+    @include media-breakpoint-down(md)
+        .grid
+            >
+                .expertise-persons
+                    order: 5
+                .latest
+                    order: 6
