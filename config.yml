@@ -10,7 +10,7 @@ module:
       target: layouts
 
 params:
-  expertises:
+  services:
     thumbnail:
       desktop: "414x177"
       mobile: "300x129"
@@ -21,4 +21,4 @@ params:
 
 # Default
 permalinks:
-  expertises: /expertises/:slug/
+  services: /services/:slug/

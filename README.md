@@ -1,10 +1,10 @@
-# hugolify-theme-expertises
+# hugolify-theme-services
 
 ## Install
-Edit `config/_default/module.yaml` to install the `hugolify-theme-expertises` module:
+Edit `config/_default/module.yaml` to install the `hugolify-theme-services` module:
 ```yml
 imports:
-  - path: github.com/hugolify/hugolify-theme-expertises
+  - path: github.com/arthaud-proust-pro/hugolify-theme-services
 ```
 
 ## Documentation

@@ -1,6 +1,6 @@
 {{- with .Params.image }}
-  {{ $desktop := site.Params.expertises.image.desktop | default false }}
-  {{ $mobile := site.Params.expertises.image.mobile | default false }}
+  {{ $desktop := site.Params.services.image.desktop | default false }}
+  {{ $mobile := site.Params.services.image.mobile | default false }}
   {{ partial "commons/figure.html" (dict
     "src" .src
     "alt" .alt

@@ -1,17 +1,17 @@
-expertises:
-  all: All expertises
-  latest: Latest expertises
-  discover: Discover the expertise
+services:
+  all: All services
+  latest: Latest services
+  discover: Discover the service
   discover_persons:
     one: Our {{ .Title }}’s  expert
     other: Our {{ .Title }}’s  experts
-  more: Discover more expertises
+  more: Discover more services
   persons:
     one: Our expert
     other: Our experts
   related:
-    one: Related expertise
-    other: Related expertise
+    one: Related service
+    other: Related service
   title:
-    one: Expertise
-    other: Expertises
+    one: Service
+    other: Services
