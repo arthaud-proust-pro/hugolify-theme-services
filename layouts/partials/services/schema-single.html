@@ -1,7 +1,7 @@
 <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "Specialty",
+    "@type": "Service",
     "name": {{ .Title | plainify | safeHTML }},
     {{ with .Description }}
       "description": {{ partial "func/TruncateContent" (dict "content" .) }},

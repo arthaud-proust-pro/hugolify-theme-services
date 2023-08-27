@@ -4,7 +4,7 @@
   {{ $mobile = site.Params.services.thumbnail.scrollsnap | default false }}
 {{ end }}
 <div class="media">
-  {{ with .Params.image}}
+{{ with .Params.image}}
     {{ partial "commons/image.html" (dict
       "src" .src
       "alt" .alt
@@ -12,5 +12,5 @@
       "mobile" $mobile
       "itemprop" "image"
     ) }}
-  {{ end }}
+{{ end }}
 </div>
